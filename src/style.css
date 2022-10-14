@@ -1,0 +1,21 @@
+:root {
+  color-scheme: light dark;
+  background-color: #fff;
+  transition: background-color .25s,background-color .25s;
+
+  --app-c-bg:#1a1a1a;
+}
+.dark:root{
+  background-color: var(--app-c-bg);
+}
+
+
+html,body{
+  height:100%;
+}
+body{
+  margin:0;
+}
+#app{
+  height: 100%;
+}
